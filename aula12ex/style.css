@@ -4,7 +4,7 @@ body {
 }
 
 header {
-
+    color: aliceblue;
 }
 
 section {
@@ -16,5 +16,6 @@ section {
 }
 
 footer {
-
+    
+    color: aliceblue;
 }
