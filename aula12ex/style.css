@@ -7,6 +7,14 @@ header {
 
 }
 
+section {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+}
+
 footer {
 
 }
