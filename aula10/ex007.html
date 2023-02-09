@@ -25,9 +25,12 @@
 </head>
 <body>
     <h1>Somando valores</h1>
-    <input type="number" name="txtn1" id="txtn1"> + 
-    <input type="number" name="txtn2" id="txtn2">
-    <input type="button" value="somar" onclick="somar()">
+    <form action="">
+        <input type="number" name="txtn1" id="txtn1"> +
+        <input type="number" name="txtn2" id="txtn2">
+        <!-- <input type="submit" value="somar" onclick="somar()"> -->
+        <input type="button" id="submit" value="Enviar" onclick="somar()">
+    </form>
     <div id="res"> Resultado </div>
     <script>
         function somar() {
@@ -39,6 +42,16 @@
             var s = n1 + n2
             res.innerHTML = `A soma entre ${n1} e  ${n2} é igual a ${s}`
         }
-    </script>
+
+    document.addEventListener("keypress", function(e) {
+        if(e.key === 'Enter') {
+  
+    var btn = document.querySelector("#submit");
+    
+    btn.click();
+  
+  }
+});
+</script>
 </body>
 </html>

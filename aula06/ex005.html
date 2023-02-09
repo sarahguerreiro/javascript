@@ -7,7 +7,7 @@
     <title>Primeiros Passos com DOM</title>
     <style>
         body {
-            background-color: rgb(71, 167, 223);
+            background-color: rgb(66, 147, 195);
             color: antiquewhite;
             font: normal 17px arial;
         }
@@ -21,12 +21,14 @@
     <script>
         var p1 = window.document.getElementsByTagName('p')[0]
         var corpo = window.document.body;
+       
         /*
        var d = document.getElementById('msg')
        d.style.background = 'green'
        d.innerText = 'Estou aguardando...'
        */
       var d = document.querySelector('div.msg')
+      d.style.color= 'red'
       d.style.background = 'pink'
     </script>
 
