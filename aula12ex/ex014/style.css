@@ -16,6 +16,9 @@ section {
     margin: auto;
     box-shadow: 5px 5px 10px #25252579;
 }
+div {
+    text-align: center;
+}
 
 footer {
     text-align: center;
