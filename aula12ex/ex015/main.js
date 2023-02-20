@@ -8,5 +8,7 @@ function verificar() {
         window.alert('[ERRO] Verifique os dados e tente novamente!')
     } else {
         var fsex = document.getElementsByName('radsex')
+        var idade = ano - Number(fano.value)
+        
     }
 }
