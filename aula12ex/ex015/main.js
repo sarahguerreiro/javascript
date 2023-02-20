@@ -16,6 +16,7 @@ function verificar() {
         } else if (fsex[1].checked) {
             gen = 'mulher'
         }
+        res.style.textAlign = 'center'
         res.innerHTML= `Detectamos ${gen} com ${idade} anos.`
     }
 }
