@@ -16,7 +16,9 @@ section {
     margin: auto;
     box-shadow: 5px 5px 10px #25252579;
 }
-
+#formulario {
+    margin: auto;
+}
 footer {
     text-align: center;
     color: aliceblue;
