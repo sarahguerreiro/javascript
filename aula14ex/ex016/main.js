@@ -1,4 +1,3 @@
-document.querySelector('#formulario').addEventListener('submit', function (e) {
-    e.preventDefault();
-    document.body.append('Formulário submetido')
-})
+let ini = document.getElementById('txti')
+let fim = document.getElementById('txtf')
+let passo = document.getElementById('txtp')

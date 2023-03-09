@@ -13,13 +13,11 @@ section {
     border-radius: 10px;
     padding: 15px;
     width: 500px;
-    height: 200px;
+    height: 250px;
     margin: auto;
     box-shadow: 5px 5px 10px #25252579;
 }
-#formulario {
-    position:relative;
-}
+
 footer {
     text-align: center;
     color: aliceblue;
