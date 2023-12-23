@@ -1,0 +1,15 @@
+{
+  "name": "poo-com-guanabara",
+  "version": "1.0.0",
+  "description": "Estudos de poo - Heranca e classes",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "javascript/treinandoJs/estudosPooGuanabara"
+  },
+  "author": "Sarah Guerreiro",
+  "license": "ISC"
+}
