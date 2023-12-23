@@ -28,7 +28,6 @@ export class Aluno extends Pessoa {
     getCurso() {
 
     }
-    
     setCurso() {
 
     }
