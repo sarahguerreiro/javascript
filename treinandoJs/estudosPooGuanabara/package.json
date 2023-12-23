@@ -11,5 +11,6 @@
     "url": "javascript/treinandoJs/estudosPooGuanabara"
   },
   "author": "Sarah Guerreiro",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }
