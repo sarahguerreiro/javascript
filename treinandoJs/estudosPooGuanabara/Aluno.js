@@ -16,7 +16,7 @@ export class Aluno extends Pessoa {
     cancelarMatricula() {
         
     }
-
+    
     getMatricula() {
 
     }
