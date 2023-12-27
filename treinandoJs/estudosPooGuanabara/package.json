@@ -2,7 +2,7 @@
   "name": "poo-com-guanabara",
   "version": "1.0.0",
   "description": "Estudos de poo - Heranca e classes",
-  "main": "main.js",
+  "main": "./main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

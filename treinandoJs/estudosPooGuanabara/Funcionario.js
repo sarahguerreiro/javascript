@@ -13,7 +13,7 @@ export class Funcionario extends Pessoa {
         this.trabalhando = trabalhando
     }
 
-    mudar(){
-        
+    mudarTrabalho(){
+
     }
 }

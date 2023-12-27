@@ -1,6 +1,6 @@
 import { Pessoa } from "./Pessoa.js";
 
-export class Aluno extends Pessoa {
+export class Aluno  extends Pessoa {
     nome
     idade
     sexo
