@@ -2,38 +2,61 @@ export class Pessoa {
     nome
     idade
     sexo
+    dataNascimento
+    dia
     
-    constructor(nome, idade, sexo){
-        this.nome = nome
-        this.idade = idade
-        this.sexo = sexo
+    constructor(){
+        
     }
 
-    fazerAniv() {
+    fazerAniv(data) {
+        let dataAtual = new Date()
 
+        if (data === dataAtual.getFullYear()) {
+            console.log('feliz aniver!')
+        }
     }
 
     getNome() {
-
+        return this.nome
     }
 
-    setNome() {
-
+    setNome(nome) {
+        this.nome = nome
     }
 
     getIdade() {
-
+        return this.idade
     }
 
-    setIdade() {
-
+    setIdade(idade) {
+        this.idade = idade
     }
 
     getSexo() {
-
+        return this.sexo
     }
     
-    setSexo() {
+    setSexo(sexo) {
+        this.sexo = sexo
+    }
 
+    getDataNascimento() {
+        return this.dataNascimento
+    }
+    
+    setDataNascimento(dataNascimento) {
+        this.dataNascimento = dataNascimento
     }
 }
+
+
+const p1 = new Pessoa()
+
+ p1.setDataNascimento(2024)
+
+ console.log(p1.getDataNascimento());
+ 
+ p1.fazerAniv(p1.getDataNascimento())
+ 
+ console.log(p1.dia = 'tarde');

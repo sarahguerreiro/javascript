@@ -1,16 +1,13 @@
 import { Pessoa } from "./Pessoa.js";
 
-export class Aluno  extends Pessoa {
-    nome
-    idade
-    sexo
+export class Aluno extends Pessoa {
+
     matricula
     curso
 
-    constructor(nome, idade, sexo, matricula, curso) {
-        super(nome, idade, sexo);
-        this.matricula = matricula;
-        this.curso = curso;
+    constructor() {
+        super();
+        
     }
 
     cancelarMatricula() {
